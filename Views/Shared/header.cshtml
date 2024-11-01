@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link href="~/css/header/header.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <!--<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Proyecto_page.styles.css" asp-append-version="true" />-->
+</head>
+<body>
+
+    <header class="header">
+        <img src="/Image/Vector.png" alt="">
+        <img src="/Image/AluraGeek.png" alt="">
+        <img src="/Image/AluraGeek (1).png" alt="">
+        <nav>
+            <ul class="headerlist-nav">
+                <li class="headerlink "><a href="/">Store</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+
+    <link href="~/lib/fontawesome/fontawesome-free-6.4.0-web/css/fontawesome.css" rel="stylesheet" />
+    <link href="~/lib/fontawesome/fontawesome-free-6.4.0-web/css/fontawesome.min.css" rel="stylesheet" />
+
+    <link href="~/lib/fontawesome/fontawesome-free-6.4.0-web/css/solid.min.css" rel="stylesheet" />
+    <link href="~/lib/fontawesome/fontawesome-free-6.4.0-web/css/solid.css" rel="stylesheet" />
+
+    <link href="~/lib/fontawesome/fontawesome-free-6.4.0-web/css/regular.min.css" rel="stylesheet" />
+    <link href="~/lib/fontawesome/fontawesome-free-6.4.0-web/css/regular.css" rel="stylesheet" />
+
+    <link href="~/lib/fontawesome/fontawesome-free-6.4.0-web/css/brands.min.css" rel="stylesheet" />
+    <link href="~/lib/fontawesome/fontawesome-free-6.4.0-web/css/brands.css" rel="stylesheet" />
+
+
+    <link href="~/lib/pnotify/dist/pnotify.css" rel="stylesheet" />
+    <link href="~/lib/pnotify/dist/pnotify.buttons.css" rel="stylesheet" />
+    <link href="~/lib/pnotify/dist/pnotify.nonblock.css" rel="stylesheet" />
+
+
+    <script src="~/lib/pnotify/dist/pnotify.js"></script>
+    <script src="~/lib/pnotify/dist/pnotify.buttons.js"></script>
+    <script src="~/lib/pnotify/dist/pnotify.nonblock.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

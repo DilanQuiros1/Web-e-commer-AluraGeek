@@ -1,0 +1,46 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/header.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro de usuario</title>
+    <link href="~/css/crearusu/crearusu.css" rel="stylesheet" />
+</head>
+<body>
+    <h1 class="centrar">Registro de nuevo usuario, utilizando tu misma persona</h1>
+    <main>
+        
+        <div class="container">
+            
+            <form id="login">
+                <!--method="post" action="RegistrarUsuario"-->
+                <div>
+                    <label for="id">Ingrese el ID de tu Persona:</label>
+                    <input type="text" id="idpersona" name="id" required>
+                </div>
+                <div>
+                    <label for="gmail">Ingrese correo electronico para su nuevo usuario:</label>
+                    <input type="email" id="correo" name="gmail" required>
+                </div>
+
+                <div>
+                    <label for="password">Ingrese una contraseña para su nuevo usuario:</label>
+                    <input type="password" id="usu_password" name="password" required>
+                </div>
+               
+                <div>
+                    <input type="submit" value="Registrar">
+                </div>
+                
+            </form>
+        </div>
+    </main>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/js/insertar_usuario/prueba.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/footer.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <link href="~/css/token/token.css" rel="stylesheet" />
+</head>
+
+
+<body>
+    
+    <div>
+        <h2>Reset Password</h2>
+        <a class="resetPassword regresar_btn" href="/VerProducto/VerProductos">Store</a>
+    </div>
+    <div class="login-container">
+
+        <div class="login-form">
+
+            <form>
+                <div class="mb-3">
+                    <label class="form-label">Ingrese su correo registrado en la pagina</label>
+                    <input type="email" class="form-control" id="correo" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Vuelva a dijitar su correo</label>
+                    <input type="email" class="form-control" id="_correo">
+                </div>
+            </form>
+
+            <section>
+                <a class="resetPassword" id="envio_token" href="#">Solicitar clave</a>
+
+            </section>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/js/token/envio_token.js"></script>
+</body>
+</html>
+

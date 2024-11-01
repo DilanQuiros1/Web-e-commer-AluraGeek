@@ -1,0 +1,171 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/footer.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura</title>
+    <link href="~/css/reset.css" rel="stylesheet" />
+    <link href="~/css/productos/productos.css" rel="stylesheet" />
+    <link href="~/css/productos/style_productos_partes.css" rel="stylesheet" />
+</head>
+<body>
+
+    <header>
+
+        <div class="section_logos">
+
+            <div class="seccion_login">
+
+
+                <div class="img_header">
+                    <div>
+                        <img src="/Image/Vector.png" alt="">
+                        <img src="/Image/AluraGeek.png" alt="">
+                        <img src="/Image/AluraGeek (1).png" alt="">
+                    </div>
+                   
+                </div>
+
+            </div>
+
+            <div class="section_btn">
+                <a href="/Login_Admin/Login_Admin">Administrador</a>
+               
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <h1 class="acceso">Acceso restringido</h1>
+        <div>
+            <ul class="links">
+                <li class="lists"><a href="#tecnologia"><i class="fa-solid fa-computer"></i> Tecnologia</a></li>
+                <li class="lists"><a href="#ropa"><i class="fa-solid fa-shirt"></i> Ropa</a></li>
+                <li class="lists"><a href="#otros_productos"><i class="fa-solid fa-image"></i> Otros</a></li>
+            </ul>
+        </div>
+
+        <div class="section_articulos_principal">
+
+            <div id="tecnologia" class="section_articulo">
+
+                <div class="section_princiopal_titulo">
+                    <h1 class="titulo_articulos">Tecnologia</h1>
+                    
+                </div>
+
+                <ul class="productos productos_tecnologia" data-list_producto>
+                    
+                    @*<li class="articulo">
+                        <h1 class="titulo_li_articulo">Nombre</h1>
+                        <h2>${nombre_producto}</h2>
+                        <img src="/Image/istockphoto-473850320-1024x1024.jpg" alt="" data-img_articulo>
+                        <h1 class="titulo_li_articulo">Precio</h1>
+                        <h2>$ ${precio_producto}</h2>
+                        <a href="#" data-a id="${id_producto}">Ver producto</a>
+                        <a href="#" data-a id="${id_producto}">Eliminar Producto</a>
+                    </li> 
+                    <li class="articulo">
+                        <h1 class="titulo_li_articulo">Nombre</h1>
+                        <h2>${nombre_producto}</h2>
+                        <img src="/Image/istockphoto-473850320-1024x1024.jpg" alt="" data-img_articulo>
+                        <h1 class="titulo_li_articulo">Precio</h1>
+                        <h2>$ ${precio_producto}</h2>
+                        <a href="#" data-a id="${id_producto}">Ver producto</a>
+                        <a href="#" data-a id="${id_producto}">Eliminar Producto</a>
+                    </li> 
+                    <li class="articulo">
+                        <h1 class="titulo_li_articulo">Nombre</h1>
+                        <h2>${nombre_producto}</h2>
+                        <img src="/Image/istockphoto-473850320-1024x1024.jpg" alt="" data-img_articulo>
+                        <h1 class="titulo_li_articulo">Precio</h1>
+                        <h2>$ ${precio_producto}</h2>
+                        <a href="#" data-a id="${id_producto}">Ver producto</a>
+                        <a href="#" data-a id="${id_producto}">Eliminar Producto</a>
+                    </li>*@
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div id="ropa" class="section_articulos_principal">
+
+            <div class="section_articulo">
+
+                <div class="section_princiopal_titulo">
+                    <h1 class="titulo_articulos">Ropa</h1>
+                   
+                </div>
+
+                <ul class="productos productos_ropa" data-list_producto_ropa>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div id="otros_productos" class="section_articulos_principal">
+
+            <div class="section_articulo">
+
+                <div class="section_princiopal_titulo">
+                    <h1 class="titulo_articulos">Otros Productos</h1>
+                   
+                </div>
+
+                <ul class="productos productos_otros_pro" data-list_producto_otros>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="footer_principal">
+
+        <div class="contactenos">
+            <ul class="ul_rodapie">
+                <li>
+                    <img class="img_footer" src="/Image/AluraGeek.png" alt="">
+                    <img class="img_footer" src="/Image/AluraGeek (1).png" alt="">
+                </li>
+                <li>
+                    <h1 class="p_contactenos">Nuestra tienda</h1>
+                    <h3 class="p_contactenos">Confianza</h3>
+                    <h3 class="p_contactenos">Facilidad</h3>
+                    <h3 class="p_contactenos">Seguridad</h3>
+                    <h3 class="p_contactenos">Rapidez</h3>
+                    <h3 class="p_contactenos">Confortabilidad</h3>
+                </li>
+                <li>
+                    <img id="imagen_footer" src="~/image/istockphoto-1179066060-1024x1024.jpg" />
+                   
+                </li>
+            </ul>
+        </div>
+         
+        <div class="div_footer">
+            <h2 class="titulo_footer">Desarrollado por un Junior</h2>
+        </div>
+
+    </footer>
+    
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script type="module" src="~/js/producto_controller/mis_productos_vendedor.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Proyecto_page
+build_property.RootNamespace = Proyecto_page
+build_property.ProjectDir = C:\Users\Dilan Quiros\source\repos\Proyecto_page\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Dilan Quiros\source\repos\Proyecto_page
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Dilan Quiros/source/repos/Proyecto_page/Views/CraerProducto/Craer_producto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JhZXJQcm9kdWN0b1xDcmFlcl9wcm9kdWN0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilan Quiros/source/repos/Proyecto_page/Views/CrearUsuario/AgregarUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXJVc3VhcmlvXEFncmVnYXJVc3VhcmlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilan Quiros/source/repos/Proyecto_page/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilan Quiros/source/repos/Proyecto_page/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilan Quiros/source/repos/Proyecto_page/Views/insertar_usuario/insertar_user.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW5zZXJ0YXJfdXN1YXJpb1xpbnNlcnRhcl91c2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilan Quiros/source/repos/Proyecto_page/Views/Login/LoginPrincipal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW5QcmluY2lwYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilan Quiros/source/repos/Proyecto_page/Views/Login_Admin/Login_Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5fQWRtaW5cTG9naW5fQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilan Quiros/source/repos/Proyecto_page/Views/Mis_Productos/mis_productos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWlzX1Byb2R1Y3Rvc1xtaXNfcHJvZHVjdG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilan Quiros/source/repos/Proyecto_page/Views/Mi_Carrito_Productos/mi_carrito.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWlfQ2Fycml0b19Qcm9kdWN0b3NcbWlfY2Fycml0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilan Quiros/source/repos/Proyecto_page/Views/Mi_perfil/mi_perfil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWlfcGVyZmlsXG1pX3BlcmZpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilan Quiros/source/repos/Proyecto_page/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilan Quiros/source/repos/Proyecto_page/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilan Quiros/source/repos/Proyecto_page/Views/Vendedor/vendedor_prodctos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZGVkb3JcdmVuZGVkb3JfcHJvZGN0b3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilan Quiros/source/repos/Proyecto_page/Views/VerProducto/VerProductos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVyUHJvZHVjdG9cVmVyUHJvZHVjdG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilan Quiros/source/repos/Proyecto_page/Views/VerUsu/VerUsuarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVyVXN1XFZlclVzdWFyaW9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilan Quiros/source/repos/Proyecto_page/Views/Ver_one_producto/ver_one_producto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVyX29uZV9wcm9kdWN0b1x2ZXJfb25lX3Byb2R1Y3RvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilan Quiros/source/repos/Proyecto_page/Views/Ver_one_producto/ver_one_producto_sin_agregarCarrito.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVyX29uZV9wcm9kdWN0b1x2ZXJfb25lX3Byb2R1Y3RvX3Npbl9hZ3JlZ2FyQ2Fycml0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilan Quiros/source/repos/Proyecto_page/Views/Vre_producto_buscado/ver_producto_busqueda.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVnJlX3Byb2R1Y3RvX2J1c2NhZG9cdmVyX3Byb2R1Y3RvX2J1c3F1ZWRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilan Quiros/source/repos/Proyecto_page/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilan Quiros/source/repos/Proyecto_page/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dilan Quiros/source/repos/Proyecto_page/Views/Shared/footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGZvb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-95x1uautlb
+
+[C:/Users/Dilan Quiros/source/repos/Proyecto_page/Views/Shared/header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGhlYWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-evia7qxz2z
+
+[C:/Users/Dilan Quiros/source/repos/Proyecto_page/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-nz4ipzn5ps

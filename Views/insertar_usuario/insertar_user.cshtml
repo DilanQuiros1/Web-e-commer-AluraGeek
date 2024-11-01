@@ -1,0 +1,99 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/header.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <form id="login" class="row g-3 needs-validation">
+        <div class="col-md-4">
+            <label for="validationCustom01" class="form-label">Ingrese un ID</label>
+            <input type="text" class="form-control" id="idpersona" placeholder="Nombre.." required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="col-md-4">
+            <label for="validationCustom01" class="form-label">Ingrese su Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Nombre.." required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="col-md-4">
+            <label for="validationCustom02" class="form-label">Ingrese sus apellidos</label>
+            <input type="text" class="form-control" id="apellidos" placeholder="Apellidos.." required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="col-md-4">
+            <label for="validationCustom02" class="form-label">Cree una contraseña nueva</label>
+            <input type="password" class="form-control" id="usu_password" placeholder="*****" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="col-md-4">
+            <label for="validationCustomUsername" class="form-label">Ingrese su correo</label>
+            <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">correo</span>
+                <input type="text" class="form-control" id="correo" placeholder="Correo@gmail.." aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                    Please choose a username.
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">Ingrese su Telefono</label>
+            <input type="text" class="form-control" id="telefono" placeholder="1010...." required>
+            <div class="invalid-feedback">
+                Please provide a valid city.
+            </div>
+        </div>
+       
+        <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Ingrese su direccion</label>
+            <input type="text" class="form-control" id="direccion" placeholder="direccion" required>
+            <div class="invalid-feedback">
+                Please provide a valid zip.
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                    Agree to terms and conditions
+                </label>
+                <div class="invalid-feedback">
+                    You must agree before submitting.
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <label for="inputState" class="form-label">Sexo</label>
+            <select id="sexo" class="form-select">
+                <option value="M" selected>Choose...</option>
+                <option value="F">Femenino</option>
+                <option value="M">Masculino</option>
+            </select>
+        </div>
+        <div class="col-12">
+            <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+        <h1 id="dar_contra_usu"></h1>
+    </form>
+   
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/js/insertar_persona/insertar_persona.js"></script>
+   
+</body>
+</html>
+
+

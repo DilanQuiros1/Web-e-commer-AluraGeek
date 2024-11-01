@@ -1,0 +1,50 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/footer.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    
+   
+    <link href="~/css/loginprincipal/login_pricipal.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <h1>Login</h1>
+    <section class="btns_registro">
+        <a id="vista_crear_usu" href="/insertar_usuario/insertar_user">Registrarme</a>
+        <a id="vista_crear_usuario_persona" href="/CrearUsuario/AgregarUsuario">Crear un Usuario</a>
+    </section>
+    
+
+    <div class="login-container">
+       
+        <div class="login-form">
+            
+            <form id="login">
+                <div class="form-group">                
+                    <input type="email" id="email" name="email" class="form-control" required placeholder="Ingrese su correo electronico"/>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="password" name="password" class="form-control" required placeholder="Ingrese su password"/>
+                    <span class="password-toggle"></span>
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+                 <a  id="olvidar_contra" href="/Token/correo_token">Olvide mi password</a>
+            </form>
+            
+           
+        </div>
+    </div>
+    
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/js/login/login_principal.js"></script>
+
+</body>
+</html>

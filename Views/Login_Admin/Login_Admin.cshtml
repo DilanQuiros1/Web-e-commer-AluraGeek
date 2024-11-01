@@ -1,0 +1,146 @@
+﻿@{
+    ViewData["Title"] = "login";
+    Layout = "~/Views/Shared/footer.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link href="~/css/reset.css" rel="stylesheet" />
+    <link href="~/css/Login/cs_login.css" rel="stylesheet" />
+    <link href="~/css/login/nav_a.css" rel="stylesheet" />
+    <title>Controler</title>
+</head>
+<body>
+    <header>
+
+        <div class="section_logos">
+
+            <div class="seccion_login">
+
+                <div class="img_header">
+                    <div>
+                        <img src="/Image/Vector.png" alt="">
+                        <img src="/Image/AluraGeek.png" alt="">
+                        <img src="/Image/AluraGeek (1).png" alt="">
+                    </div>
+                    <h1 class="titulo_principal">Controlador</h1>
+                </div>
+
+            </div>
+
+            <div class="section_btn">
+                <a href="/VerProducto/VerProductos">Store</a>
+               <div id="user">
+                    <h2 class="mi_nombre_bienvenida" data-mi_nombre>  </h2>                  
+                    <h2 class="mi_nombre_bienvenida" data-mi_correo> </h2>
+               </div>
+            </div>
+        </div>
+
+        <nav>
+            <ul class="menu-horizontal">
+
+                <li>
+                    <a href="#">Opciones</a>
+                    <ul class="menu-vertical">
+                        <li><a href="/CrearUsuario/AgregarUsuario"><i class="fa-solid fa-plus"></i> Nuevo usuario Login</a></li>
+                        <li><a href="/insertar_usuario/insertar_user"> <i class="fa-solid fa-user-plus"></i> Craer Persona</a></li>
+                        <li><a href="/Vendedor/vendedor_prodctos"><i class="fa-solid fa-person-circle-plus"></i> Registrarme como Vendedor</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Home</a>
+                    <ul class="menu-vertical">
+                        <li><a href="/Mi_perfil/nuestra_pagina"><i class="fa-solid fa-house"></i> Quienes Somos</a></li>
+                        <li><a href="/VerProducto/VerProductos"><i class="fa-solid fa-store"></i> Store</a></li>
+                        <li><a onclick="cerrarSecion()">Cerrar Secion</a></li>
+                    </ul>
+
+                </li>
+                <li>
+                    <a href="#">Perfil</a>
+                    <ul class="menu-vertical">
+                        <li><a href="/Mi_perfil/mi_perfil"><i class="fa-solid fa-user-pen"></i> Mi Perfil</a></li>
+                        <li><a href="/Mi_Carrito_Productos/mi_carrito"><i class="fa-solid fa-cart-shopping"></i> Mi carrito</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#">Configuraciones</a>
+                    <ul class="menu-vertical">
+                        <li><a href="/Token/correo_token"><Yo class="fa-solid fa-key"></Yo> Reset Password</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </nav>
+
+
+    </header>
+
+    <main>
+
+        <div class="section_registro_principal">
+
+            <fieldset>
+                <form id="login_ven">
+                    <ul class="lista_de_login">
+                        <li><label class="labels" for="correo">Ingrese el ID del Vendedor</label></li>
+                        <li>
+                            <input class="imputs" type="text" id="correo" data-correo="" placeholder="50100..." required>
+                        </li>
+                        <li><label class="labels" for="clave">Contraseña</label></li>
+                        <li>
+                            <input class="imputs" placeholder="contraseña" type="password" id="clave" data-clave="">
+                        </li>
+                        <li>
+                            <button class="btn_entrar" type="submit" data-login>Entrar</button>
+                        </li>
+                       
+                    </ul>
+                   
+                </form>
+            </fieldset>
+        </div>
+
+    </main>
+
+    <footer class="footer_principal">
+
+        <div id="Email" class="contactenos">
+            <ul class="ul_rodapie">
+                <li>
+                    <img src="../Image/AluraGeek.png" alt="">
+                    <img src="../Image/AluraGeek (1).png" alt="">
+                </li>
+                <li>
+                    <h1 class="p_contactenos_inicial">Nuestra tienda</h1>
+                    <h3 class="p_contactenos">Confianza</h3>
+                    <h3 class="p_contactenos">Facilidad</h3>
+                    <h3 class="p_contactenos">Seguridad</h3>
+                    <h3 class="p_contactenos">Rapidez</h3>
+                    <h3 class="p_contactenos">Confortabilidad</h3>
+                </li>
+                
+                <li>
+                    <img id="imagen_footer" src="~/image/online-shopping.jpg" />
+                   
+                </li>
+            </ul>
+        </div>
+
+        <div class="div_footer">
+            <h2 class="titulo_footer">Desarrollado por un Junior</h2>
+        </div>
+
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/js/vendedor/validad_ven.js"></script>
+    <script type="module" src="~/js/mi_perfil/mi_nombre.js"></script>
+    <script src="~/js/cerrarsecion/serrarsecion.js"></script>
+   
+</body>
+</html>

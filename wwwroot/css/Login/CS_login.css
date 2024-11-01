@@ -1,0 +1,183 @@
+body {
+  background: #fcfff4
+}
+
+
+.section_logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 50px;
+    margin-left: 80px;
+    margin-bottom: 100px;
+}
+
+
+.seccion_login{
+    width: 75%;
+}
+
+.img_header{
+ display: flex;
+ flex-direction: row;
+ width: 70%;
+ height: 10%;
+ justify-content:space-around;
+ align-items: center;
+}
+
+.titulo_principal {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 250px;
+}
+
+.imput_form{
+gap: 8px;
+width: 280px;
+padding: 14px 150px 10px 24px;
+border: none;
+background: #eee;
+border-radius: 20px;
+}
+
+.section_btn{
+ width: 25%;
+ display: flex;
+}
+
+#user{
+ display: flex;
+ flex-direction: column;
+}
+
+.mi_nombre_bienvenida {
+    padding-left: 12px;
+    padding-top: 5px;
+    color: #2965a7;
+}
+
+
+.section_btn a {
+    display: inline-block;
+    padding: 10px 10px;
+    text-decoration: none;
+    background-color: rgb(16 151 147);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+main {
+        margin-bottom: 50px;
+}
+.btn_login{
+    width: 150px;
+    height: 50px;
+    background: white;
+    border-color: rgb(85, 159, 223);
+}
+
+.lista_de_login{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.labels{
+    margin-left: 120px;
+}
+
+.imputs{
+    padding: 10px 180px 10px 10px;
+}
+
+.btn_entrar {
+    width: 363px;
+    height: 50px;
+    margin-top: 20.1px;
+    border-color: rgb(85, 159, 223);
+}
+
+#registrar_ven {
+    display: inline-block;
+    padding: 17px 92px;
+    text-decoration: none;
+    background-color: rgb(16 151 147);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer_principal{
+    background: #d8ebef;
+}
+
+.contactenos{
+    width: 100%;
+    height: 280px;
+    margin-top: 180px;
+    margin-bottom: 180px;
+    background: #d8ebef;
+}
+
+#imagen_footer {
+    width: 30em;
+    box-shadow: 1px 1px 5px 12px #9292
+}
+
+.ul_rodapie {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.p_contactenos_inicial{
+ font-size: 30px;
+}
+
+.p_contactenos{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.lista_form{
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+}
+
+.lista_form_items{
+    padding-top: 28.1px;
+}
+
+.space_form{
+    margin: 10px;
+    width: 400px;
+    height: 35px;
+}
+
+.btn_enviar{
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+.div_footer{
+ background: #ffffff;
+ height: 120px;
+}
+
+.titulo_footer{
+    text-align: center;
+    padding-top: 80px;
+}

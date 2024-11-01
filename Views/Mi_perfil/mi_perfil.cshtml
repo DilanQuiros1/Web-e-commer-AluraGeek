@@ -1,0 +1,129 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/footer.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Información de Usuario</title>
+    
+    <link href="~/css/header/header.css" rel="stylesheet" />
+    <link href="~/css/mi_perfil/mi_perfil.css" rel="stylesheet" />
+</head>
+<body>
+
+    <header class="header container">
+        <div>
+            <img src="/Image/Vector.png" alt="">
+            <img src="/Image/AluraGeek.png" alt="">
+            <img src="/Image/AluraGeek (1).png" alt="">
+        </div>
+        <nav>
+            <ul class="headerlist-nav">
+                <li class="headerlink"><a href="/VerProducto/VerProductos">Store</a></li>
+                <li class="headerlink"><a href="/Login_Admin/Login_Admin">Regresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="links_usuarios">
+        <a href="#miperfil"><i class="fa-regular fa-user"></i> Mi perfil</a>
+        <a href="#mis_usuarios"><i class="fa-solid fa-user-group"></i> Mis Usuarios</a>
+        <a href="#ven"><i class="fa-solid fa-users-rectangle"></i> Mis perfiles de vendedor</a>
+    </div>
+
+    <div>
+
+        <ul class="lista_count_users">
+            <li class="border_li">
+                <h1 class="nombre_countador">Usuarios</h1>
+                <h1 data-number_usuarios class="count_number"></h1>
+            </li>
+            <li class="border_li">
+                <h1 class="nombre_countador">Vendedores</h1>
+                <h1 data-number_vendedores class="count_number"></h1>
+            </li>
+            
+        </ul>
+
+    </div>
+
+    <main>
+        <h1 class="h1_perfiles" id="miperfil">Mi Perfil</h1>
+        <div class="persona espacio" data-table_mi_perfil>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th class="espacio_id">ID</th>
+                        <th>Nombre</th>
+                        <th>Apellidos</th>
+                        <th>Correo</th>
+                        <th>Direccion</th>
+                        <th>Telefono</th>
+                        <th>Sexo</th>
+                    </tr>
+                </thead>
+                <tbody data-table_persona>
+
+                       
+                </tbody>
+                
+            </table>
+
+        </div>
+
+        <h1 id="mis_usuarios">Mis usuarios</h1>
+        <div class="usuarios_persona espacio">
+
+            <table id="usuarios">
+                <thead>
+                    <tr>
+                        <th class="espacio_id">Cantidad</th>
+                        <th>Correo de mis Usuarios para Login</th>
+
+                    </tr>
+                </thead>
+                <tbody data-table_misUsuarios>
+
+                    <!--VAN LOS USUARIOS-->
+
+                </tbody>
+            </table>
+        </div>
+
+        <h1 id="ven">Mis Perfiles de vendedor</h1>
+        <div class="usuarios_persona espacio">
+
+            <table id="usuarios">
+                <thead>
+                    <tr>
+                        <th class="espacio_id">Cantidad</th>
+                        <th class="espacio_id">ID</th>
+                        <th>Nombres de mi perfil de vendedor</th>
+                        <th>Telefono</th>
+
+                    </tr>
+                </thead>
+                <tbody data-table_vendedores>
+
+                   
+
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+
+    
+    <script type="module" src="~/js/mi_perfil/mis_usuarios_persona.js"></script>
+    <script type="module" src="~/js/mi_perfil/mis_vendedores_persona.js"></script>
+    <script type="module" src="~/js/mi_perfil/mi_perfil_persona.js"></script>
+   
+</body>
+</html>

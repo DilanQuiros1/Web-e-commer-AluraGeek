@@ -1,0 +1,107 @@
+﻿@{
+    Layout = "~/Views/Shared/header.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro de Producto</title>
+    <link href="~/css/productos/options_links.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!--<main>
+        <div class="container">
+            <h1>Registro de usuario</h1>
+            <form id="login">
+                method="post" action="RegistrarUsuario"
+                <div>
+                    <label for="id">ID Producto:</label>
+                    <input type="text" id="idproducto" name="id" required>
+                </div>
+                <div>
+                    <label for="nombre">Nombre Producto:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div>
+                    <label for="archivo">Seleccionar imagen:</label>
+                    <input type="file" name="archivo" id="archivo" required/>
+                </div>
+                <div>
+                    <label for="gmail">Precio del Producto:</label>
+                    <input type="text" id="precio" name="gmail" required>
+                </div>
+                <div>
+                    <label for="direccion">Descripcion del Producto:</label>
+                    <input type="text" id="descripcion" name="direccion" required>
+                </div>
+                <div>
+                    <label for="telefono">Inserte su ID de vendedor:</label>
+                    <input type="tel" id="idVendedor" name="telefono" required>
+                </div>>
+
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>-->
+        <div>
+            <ul class="links">
+            <li class="lists"><a href="/VerUsu/VerUsuarios"><i class="fa-solid fa-users"></i> Ver Usuarios</a></li>
+            <li class="lists"><a href="/VerProducto/VerProductos"><i class="fa-solid fa-shop"></i> Store</a></li>
+            <li class="lists"><a href="/Mis_Productos/mis_productos"><i class="fa-solid fa-house"></i> Ver mis productos</a></li>
+            </ul>
+        </div>
+
+    <form id="login" class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+            <label for="validationCustom01" class="form-label">Ingrese ID Producto</label>
+            <input type="text" class="form-control" id="idproducto" placeholder="123.." required>
+        </div>
+        <div class="col-md-4">
+            <label for="validationCustom01" class="form-label">Ingrese Nombre del Producto</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Nombre.." required>
+        
+        </div>
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupFile01">Upload</label>
+            <input type="file" class="form-control" id="archivo">
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">Precio: $</span>
+            <input type="text" class="form-control" id="precio" placeholder="1000.." aria-label="Amount (to the nearest dollar)">
+            <span class="input-group-text">.00</span>
+        </div>
+
+        <div class="input-group">
+            <span class="input-group-text">Descripcion del producto</span>
+            <textarea class="form-control" id="descripcion" aria-label="With textarea"></textarea>
+        </div>
+
+        <div class="col-md-4">
+            <label for="validationCustom01" class="form-label">Cantidad en Stock</label>
+            <input type="text" class="form-control" id="stock" placeholder="5" required>
+
+        </div>
+
+        <div class="col-md-4">
+            <label for="inputState" class="form-label">Categoria</label>
+            <select id="categoria" class="form-select">
+                <option value="0" selected>Choose...</option>
+                <option value="Tecnologia">Tecnologia</option>
+                <option value="Ropa">Ropa</option>
+                <option value="Otra Categoria">Otra Categoria</option>
+            </select>
+        </div>
+       
+        <div class="col-12">
+            <button class="btn btn-primary" type="submit">Agregar Producto</button>
+        </div>
+    </form>
+      <h1 id="respuesta"></h1>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/js/producto_controller/img.js"></script>
+</body>
+</html>

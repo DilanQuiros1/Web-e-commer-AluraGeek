@@ -1,0 +1,181 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    //Layout = null;
+    Layout = "~/Views/Shared/footer.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura</title>
+    <link href="~/css/reset.css" rel="stylesheet" />
+    <link href="~/css/productos/productos.css" rel="stylesheet" />
+    <Guión src="https://kit.fontawesome.com/e88218afe4.js" crossorigin="anónimo"></Guión>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+
+        <div class="section_logos">
+
+            <div class="seccion_login">
+                
+
+                <div class="img_header">
+                    <div>
+                        <img src="/Image/Vector.png" alt="">
+                        <img src="/Image/AluraGeek.png" alt="">
+                        <img src="/Image/AluraGeek (1).png" alt="">
+                    </div>
+                    <form >
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input class="imput_form" type="text" id="nombre_busqueda" data-usu_id required placeholder="Que deseas buscar">
+                        <btn class="btn_busqueda_style" id="btn_busqueda">Buscar</btn>
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="section_btn">
+                <a data-validar_inicioSecion href="#">Administrador</a>
+                <a data-validar_inicioSecion href="#soporte">Soporte</a>
+            </div>
+        </div>
+
+    </header>
+    
+    <main>
+
+        @*<div class="descuentos">
+            <div class="titulos">
+                <h1 class="titulos_descuento">Descuentos</h1>
+                <h2 class="titulos_descuento">Productos seleccionados con 10% de descuento</h2>
+            </div>
+
+        </div>*@
+
+        <div>
+            <ul class="links">
+                <li class="lists"><a href="#tecnologia"><i class="fa-solid fa-computer"></i> Tecnologia</a></li>
+                <li class="lists"><a href="#ropa"><i class="fa-solid fa-shirt"></i> Ropa</a></li>
+                <li class="lists"><a href="#otros_productos"><i class="fa-solid fa-image"></i> Otros</a></li>
+            </ul>
+        </div>
+
+        <div class="section_articulos_principal">
+
+            <div id="tecnologia" class="section_articulo">
+
+                <div class="section_princiopal_titulo">
+                    <h1 class="titulo_articulos">Tecnologia</h1>
+                   @* <a class="ver_mi_carrito_links" href="/Mi_Carrito_Productos/mi_carrito">Ver mi carrito</a>*@
+                </div>
+
+                <ul  class="productos productos_tecnologia" data-list_producto>
+                    
+
+
+                </ul>
+
+            </div>
+
+        </div>
+        
+        <div id="ropa" class="section_articulos_principal">
+
+            <div class="section_articulo">
+
+                <div class="section_princiopal_titulo">
+                    <h1 class="titulo_articulos">Ropa</h1>
+                    @*<a class="ver_mi_carrito_links" href="/Mi_Carrito_Productos/mi_carrito">Ver mi carrito</a>*@
+                </div>
+
+                <ul class="productos productos_ropa" data-list_producto_ropa>
+                    
+
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div id="otros_productos" class="section_articulos_principal">
+
+            <div class="section_articulo">
+
+                <div class="section_princiopal_titulo">
+                    <h1 class="titulo_articulos">Otros Productos</h1>
+                   @* <a class="ver_mi_carrito_links" href="/Mi_Carrito_Productos/mi_carrito">Ver mi Carrito</a>*@
+                </div>
+
+                <ul class="productos productos_otros_pro" data-list_producto_otros>
+                   
+
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="footer_principal">
+
+        <div id="soporte" class="contactenos">
+            <ul class="ul_rodapie">
+               
+                <li>
+                    <h1 class="p_contactenos">Nuestra tienda</h1>
+                    <h3 class="p_contactenos">Confianza</h3>
+                    <h3 class="p_contactenos">Facilidad</h3>
+                    <h3 class="p_contactenos">Seguridad</h3>
+                    <h3 class="p_contactenos">Rapidez</h3>
+                    <h3 class="p_contactenos">Confortabilidad</h3>
+                </li>
+                <li>
+                    <form id="correo">
+
+                        <fieldset class="lista_form">
+                            <ul class="lista">
+                                <li><h1>Para sugerencias envia tu mensaje</h1></li>
+                                <li> <label class="space_form " for="nombre_completo">Nombre Completo</label></li>
+                                <li class="lista_form_items"> <input class="space_form" type="text" name="" id="nombre_completo" data-nombreCorreo required placeholder="Nombre Completo"></li>
+                                <li class="lista_form_items"><label class="space_form " for="mensage">Mensage</label></li>
+                                <li class="lista_form_items"><textarea class="space_form" cols="20.5" rows="1" data-mensajeCorreo required placeholder="Mensage" id="mensage"></textarea></li>
+                            </ul>
+                        </fieldset>
+                        <button class="btn_enviar" type="submit" data-btn_correo>Enviar</button>
+
+                    </form>
+                </li>
+                
+                <li>
+                   <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/J8xshWJZ5Ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                   </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="div_footer">
+            <h2 class="titulo_footer">Desarrollado por un Junior</h2>
+        </div>
+
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script type="module" src="~/js/producto_controller/pro_controller.js"></script>
+    <script src="~/js/correo/envio_correo.js"></script>
+</body>
+
+</html>

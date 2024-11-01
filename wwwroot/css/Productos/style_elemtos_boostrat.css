@@ -1,0 +1,19 @@
+﻿
+#centrar_div{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.col {
+    box-shadow: 10px 10px  30px #0094ff;
+    padding-bottom:20px;
+}
+
+.card-body {
+    background: #97a2f2;
+    margin-top: 10px;
+}
+
+.link_agregar_carrito{
+    text-decoration: none;
+}

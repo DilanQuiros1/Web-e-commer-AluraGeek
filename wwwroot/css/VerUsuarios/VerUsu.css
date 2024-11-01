@@ -1,0 +1,106 @@
+﻿
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+tbody {
+    box-shadow: 0 12px 30px #f34e0638;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+#usuarios tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#usuarios tr:hover {
+    background-color: #ddd;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.footer_principal {
+    background: #d8ebef;
+}
+
+.contactenos {
+    width: 100%;
+    height: 280px;
+    margin-top: 180px;
+    margin-bottom: 180px;
+    background: #d8ebef;
+}
+
+#imagen_footer {
+    width: 30em;
+    box-shadow: 1px 1px 5px 12px #9292
+}
+
+.ul_rodapie {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.p_contactenos_inicial {
+    font-size: 30px;
+}
+
+.p_contactenos {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.lista_form {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+}
+
+.lista_form_items {
+    padding-top: 28.1px;
+}
+
+.space_form {
+    margin: 10px;
+    width: 400px;
+    height: 35px;
+}
+
+.btn_enviar {
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+.div_footer {
+    background: #ffffff;
+    height: 120px;
+}
+
+.titulo_footer {
+    text-align: center;
+    padding-top: 80px;
+}

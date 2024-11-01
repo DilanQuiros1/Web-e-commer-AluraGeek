@@ -1,0 +1,58 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/footer.cshtml";
+}
+
+<head>
+    <title>Registro de Vendedor</title>
+    <link href="~/css/header/header.css" rel="stylesheet" />
+    <link href="~/css/vendedor/crear_vendedor.css" rel="stylesheet" />
+</head>
+
+<header class="header">
+    <img src="/Image/Vector.png" alt="">
+    <img src="/Image/AluraGeek.png" alt="">
+    <img src="/Image/AluraGeek (1).png" alt="">
+    <nav>
+        <ul class="header__list-nav">
+            <li class="headerlink "><a href="/Login_Admin/Login_Admin">Regresar a login administrador</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>    
+        <div class="container">
+            <h1>Registro de Vendedores</h1>
+                    <form id="login">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Ingrese un ID</label>
+                            <input type="text" class="form-control" id="id_ven" aria-describedby="emailHelp">
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Ingrese su nombre</label>
+                            <input type="text" class="form-control" id="nombre_ven">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Ingrese una contraseña</label>
+                            <input type="password" class="form-control" id="ven_password">
+                        </div> 
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Ingrese su numero de Whatsapp</label>
+                            <input type="text" class="form-control" id="tel_ven">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+            <h1 id="dar_contra_ven"></h1>
+        </div>
+    
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/js/vendedor/vendedor_controller.js"></script>
+</body>

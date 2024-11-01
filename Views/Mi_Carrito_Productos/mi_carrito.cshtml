@@ -1,0 +1,109 @@
+﻿
+@{
+    Layout = "~/Views/Shared/footer.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura</title>
+    <link href="~/css/reset.css" rel="stylesheet" />
+    <link href="~/css/productos/ver_one_producto.css" rel="stylesheet" />
+  @*  <link href="~/css/productos/style_elemtos_boostrat.css" rel="stylesheet" />*@
+
+</head>
+<body>
+
+    <header>
+
+        <div class="section_logos">
+
+            <div class="seccion_login">
+
+                <div class="img_header">
+                    <div>
+                        <img src="/Image/Vector.png" alt="">
+                        <img src="/Image/AluraGeek.png" alt="">
+                        <img src="/Image/AluraGeek (1).png" alt="">
+                    </div>
+                    <form action="">
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="section_btn">
+                <a href="/Login_Admin/Login_Admin">Regresar</a>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div id="div_vaciar_carrito">
+            <button id="btn_vaciar_carrito" data-btn_vaciar_carrito>Vaciar Carrito</button>
+        </div>
+        <div id="centrar_div">
+
+            <div id="lista_productos" class="row row-cols-1 row-cols-md-3 g-3" data-list_producto>
+
+@*
+                <div class="col">
+                    <div class="card-header">Header</div>
+                    <div class="card">
+                        <img src="/Image/istockphoto-473850320-1024x1024.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <a class="link_agregar_carrito" href="#" data-a id="${id_producto}">Ver producto</a>
+                        </div>
+
+                    </div>
+
+                </div>
+*@
+
+
+            </div>
+
+        </div>
+
+
+    </main>
+
+    <footer class="footer_principal">
+
+        <div class="contactenos">
+            <ul class="ul_rodapie">
+                <li>
+                    <img class="img_footer" src="/Image/AluraGeek.png" alt="">
+                    <img class="img_footer" src="/Image/AluraGeek (1).png" alt="">
+                </li>
+                <li>
+                    <h3 class="p_contactenos">Seguridad</h3>
+                    <h3 class="p_contactenos">Confianza</h3>
+                    <h3 class="p_contactenos">Rapidez</h3>
+                    <h3 class="p_contactenos">Mayor ahorro</h3>
+                    <h3 class="p_contactenos">Calidad</h3>
+                    <h3 class="p_contactenos">Confortabilidad</h3>
+                </li>
+                <li>
+                    <img id="imagen_footer" src="~/image/online-shopping.jpg" />
+                </li>
+            </ul>
+        </div>
+
+        <div class="div_footer">
+            <h2 class="titulo_footer">Desarrollado por un Junior</h2>
+        </div>
+
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script type="module" src="~/js/carrito/ver_productos_persona.js"></script>
+</body>
+
+</html>

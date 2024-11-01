@@ -1,0 +1,14 @@
+﻿
+#div_eliminar{
+    display: flex;
+    margin-top: 10px;
+}
+
+#h1_eliminar{
+    padding-right: 30px;
+}
+
+.imagen_footer {
+    width: 30em;
+    box-shadow: 1px 1px 5px 12px #9292
+}

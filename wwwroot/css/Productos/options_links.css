@@ -1,0 +1,24 @@
+﻿.links {
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px 100px 50px;
+    border-radius: 5px;
+}
+
+
+.lists {
+    margin: 0 50px;
+}
+
+.lists a {
+text-decoration: none;
+font-size: 20px;
+}
+
+.lists a:hover {
+    color: #2a2a32;
+}
+
+#login {
+    margin-bottom: 100px;
+}

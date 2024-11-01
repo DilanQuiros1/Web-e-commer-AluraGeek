@@ -1,0 +1,141 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura</title>
+    <link href="~/css/reset.css" rel="stylesheet" />
+    <link href="~/css/productos/ver_one_producto.css" rel="stylesheet" />
+    <Guión src="https://kit.fontawesome.com/e88218afe4.js" crossorigin="anónimo"></Guión>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+
+        <div class="section_logos">
+
+            <div class="seccion_login">
+
+                <div class="img_header">
+                    <div>
+                        <img src="/Image/Vector.png" alt="">
+                        <img src="/Image/AluraGeek.png" alt="">
+                        <img src="/Image/AluraGeek (1).png" alt="">
+                    </div>
+                    <form action="">
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="section_btn">
+                <a href="/Mis_productos/mis_productos">Store</a>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="section_articulos_principal">
+
+            <div class="section_articulo">
+
+                <div class="section_princiopal_titulo">
+                    <h1 class="titulo_articulos">Compra con facilidad!!</h1>
+                    <a id="link_ver_miCarrito" href="/Mi_Carrito_Productos/mi_carrito">Ver carrito</a>
+                </div>
+
+                <ul class="productos" data-list_producto1>
+
+                    <!--<li class="articulo">
+
+                            <li>
+                                <h1 class="titulo_li_articulo">Nombre</h1>
+                                <h2>${nombre_producto}</h2>
+                                <img id="img_producto" src="/imagenes/02bcf52f-e851-472a-86b4-540d8b0f3543.jpg" alt="" data-img_articulo>
+                                <h1 class="titulo_li_articulo">Precio</h1>
+                                <h2>$ ${precio_producto}</h2>
+                                <a href="#" data-a>Agregar al carrito</a>
+                            </li>
+
+                            <li class="Descripcion">
+                                <h1 class="titulo_li_articulo">Descripcion:</h1>
+                                <h2>
+                                    ${}
+                                </h2>
+                                <div class="ids">
+                                    <h1 class="titulo_li_articulo">ID Producto: <h2>100</h2></h1>
+
+                                    <h1 class="titulo_li_articulo">ID Vendedor: <h2>2</h2></h1>
+
+                                </div>
+                            </li>
+
+                    </li>-->
+
+
+
+                </ul>
+
+            </div>
+
+        </div>
+        <!--agregar otra clase a este div para poder agregar un articulo en difrentes categoria-->
+
+    </main>
+
+    <footer class="footer_principal">
+
+        <div class="contactenos">
+            <ul class="ul_rodapie">
+                <li>
+                    <img class="img_footer" src="/Image/AluraGeek.png" alt="">
+                    <img class="img_footer" src="/Image/AluraGeek (1).png" alt="">
+                </li>
+                <li>
+                    <h3 class="p_contactenos">Seguridad</h3>
+                    <h3 class="p_contactenos">Confianza</h3>
+                    <h3 class="p_contactenos">Rapidez</h3>
+                    <h3 class="p_contactenos">Mayor ahorro</h3>
+                    <h3 class="p_contactenos">Calidad</h3>
+                    <h3 class="p_contactenos">Confortabilidad</h3>
+                </li>
+                <li>
+                    <form action="">
+                        <fieldset class="lista_form">
+                            <h1>Me intersa el producto</h1>
+                            <label class="space_form " for="nombre_completo">Nombre Completo</label>
+                            <input class="space_form" type="text" name="" id="nombre_completo" required placeholder="Nombre Completo">
+
+                            <label class="space_form " for="mensage">Mensage</label>
+                            <textarea class="space_form" cols="3" rows="1" required placeholder="Mensage" id="mensage"></textarea>
+                        </fieldset>
+                        <button class="btn_enviar" type="submit">Enviar</button>
+
+                    </form>
+                </li>
+            </ul>
+        </div>
+
+        <div class="div_footer">
+            <h2 class="titulo_footer">Desarrollado por un Junior</h2>
+        </div>
+
+    </footer>
+    <script type="module" src="~/js/producto_controller/ver_one_sin_agregarcarrito.js"></script>
+</body>
+
+</html>
